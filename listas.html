@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Configura la codificacion, el diseno adaptativo y el titulo de la pagina -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de listas en HTML</title>
+</head>
+
+<body>
+
+    <!-- Encabezado principal que indica el tema central del documento -->
+    <h1>Tipos de listas</h1>
+
+    <!-- Subtitulo y explicacion sobre el funcionamiento de las listas ordenadas -->
+    <h2>Listas ordenadas</h2>
+    <p>Una lista ordenada es una serie de elementos los cuales 
+        tendran una numeracion de acuerdo al numeros de elementos.
+    </p>
+
+    <!-- Crea una lista ordenada utilizando la etiqueta ol -->
+    <ol>
+        <!-- Cada elemento de la lista se define con la etiqueta li y se le asigna un numero automatico -->
+        <li>Luna Arias </li>
+        <li>Franco Andrea</li>
+        <li>Granados Evelyn</li>
+    </ol>
+
+    <!-- Subtitulo y explicacion sobre las listas no ordenadas -->
+    <h2>Listas no ordenadas</h2>
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
+        de cada item sino un pequeno elemento grafico
+    </p>
+
+    <!-- Crea una lista no ordenada utilizando la etiqueta ul -->
+    <ul>
+        <!-- Cada elemento se muestra con una viñeta grafica en lugar de un numero -->
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+    </ul>
+
+    <!-- Subtitulo y descripcion de las listas de definiciones -->
+    <h2>Lista de definiciones</h2>
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p>
+
+    <!-- Estructura la lista de descripcion o definicion usando la etiqueta dl -->
+    <dl>
+        <!-- Primer termino definido con la etiqueta dt -->
+        <dt>C++</dt>
+        <!-- Definicion explicativa del primer termino usando la etiqueta dd -->
+        <dd>
+            Es un lenguaje de programacion, disenado a mediados de los anos
+            1980 como extension del lenguaje de programacion C.
+        </dd>
+
+        <!-- Segundo termino de la lista de definiciones -->
+        <dt>Java</dt>
+        <!-- Definicion explicativa del segundo termino -->
+        <dd>
+            Es un lenguaje de programacion orientado a objetos desarrollado
+            por Sun Microsystem a principios de los 90.
+        </dd>
+
+        <!-- Tercer termino de la lista de definiciones -->
+        <dt>JavaScript</dt>
+        <!-- Definicion explicativa del tercer termino -->
+        <dd>
+            Es un lenguaje interpretado, es decir que no requiere compilacion,
+            utilizado principalmente en paginas web, con una sintaxis similar
+            al lenguaje de programacion C.
+        </dd>
+    </dl>
+
+    <!-- Subtitulo y explicacion del concepto de listas anidadas -->
+    <h2>Listas anidadas</h2>
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden
+        anidar diferentes tipos de lista de acuerdo al requerimiento
+    </p>
+
+    <!-- Lista ordenada principal que contiene paises -->
+    <ol>
+        <!-- Primer elemento principal que contiene a su vez una lista secundaria -->
+        <li>Argentina
+            <!-- Lista no ordenada anidada dentro del primer elemento para listar sus ciudades -->
+            <ul>
+                <li>Buenos aires</li>
+                <li>La plata</li>
+                <li>Mendoza</li>
+            </ul>
+        </li>
+
+        <!-- Segundo elemento principal con su lista anidada -->
+        <li>Espana
+            <ul>
+                <li>Barcelona</li>
+                <li>Madrid</li>
+                <li>Sevilla</li>
+            </ul>
+        </li>
+
+        <!-- Tercer elemento principal con su lista anidada -->
+        <li>Mexico
+            <ul>
+                <li>Chihuahua</li>
+                <li>Cd. Juarez</li>
+                <li>Hermosillo</li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Configura la codificacion, el diseno adaptativo y el titulo del documento -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces en HTML</title>
+</head>
+
+<body>
+
+    <!-- Encabezado principal que indica el tema central de la pagina -->
+    <h2>Tipos de enlaces en HTML</h2>
+
+    <!-- Seccion de hipervinculos internos (rutas relativas que dirigen a archivos locales) -->
+    <p>
+        <strong>Enlaces/Hipervinculos a otra pagina del mismo sitio.</strong>
+    </p>
+
+    <!-- Enlace relativo que abre en la pestana actual por defecto -->
+    <a href="1. Hola_mundo.html">1. Hola Mundo</a><br>
+
+    <!-- Enlace relativo usando target="_self" (comportamiento predeterminado: abre en el mismo marco o pestana) -->
+    <a href="2. Encabezados.html" target="_self">2. Encabezados</a><br>
+
+    <!-- Enlace relativo usando target="_blank" (fuerza la apertura en una pestana o ventana nueva) -->
+    <a href="3. Parrafos.html" target="_blank">3. Parrafos</a><br>
+
+    <!-- Enlace relativo usando target="_parent" (abre el documento en el marco padre) -->
+    <a href="4. Salto de linea.html" target="_parent">4. Salto de linea</a><br>
+
+    <!-- Enlace relativo usando target="_top" (cancela todos los marcos y abre en el cuerpo completo de la ventana) -->
+    <a href="5. Enfatizado.html" target="_top">5. Enfatizado</a><br>
+
+    <!-- Seccion de hipervinculos externos (rutas absolutas hacia sitios web fuera del dominio local) -->
+    <p>
+        <strong>Enlaces/Hipervinculos a sitios externos</strong>
+    </p>
+
+    <!-- Enlace externo simple con ruta absoluta (HTTPS) -->
+    <a href="https://www.google.com/">Google</a><br>
+
+    <!-- Enlace externo configurado para abrirse en el mismo marco o pestana actual -->
+    <a href="https://www.youtube.com/" target="_self">YouTube</a><br>
+
+    <!-- Enlace externo configurado para abrirse en una pestana nueva (recomendado para navegacion externa) -->
+    <a href="https://www.facebook.com/" target="_blank">FaceBook</a><br>
+
+    <!-- Enlace externo que cancela el marco actual para abrirse en el marco padre -->
+    <a href="https://www.wikipedia.com/" target="_parent">WikiPedia</a><br>
+
+    <!-- Enlace externo que se abre ocupando toda la ventana del navegador -->
+    <a href="https://www.espanol.yahoo.com/" target="_top">Yahoo!</a><br>
+
+</body>
+</html>
